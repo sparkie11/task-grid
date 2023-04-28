@@ -1,0 +1,15 @@
+{catlastopen && (
+                                    <div id="23" className="cat-last-right meg">
+                                      {two.data?.map((thirty) => (
+                                        <ul>
+                                          <li
+                                            className="thirty"
+                                            key={thirty.id}
+                                          >
+                                            <h5>{thirty.title}</h5>
+                                            <ChevronRightIcon />
+                                          </li>
+                                        </ul>
+                                      ))}
+                                    </div>
+                                  )}
